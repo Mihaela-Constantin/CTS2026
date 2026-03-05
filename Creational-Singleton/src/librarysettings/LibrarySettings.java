@@ -1,4 +1,4 @@
-package classes;
+package librarysettings;
 
 public class LibrarySettings {
 

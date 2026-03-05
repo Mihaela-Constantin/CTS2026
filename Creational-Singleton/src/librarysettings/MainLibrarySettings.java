@@ -1,6 +1,6 @@
-package main;
+package librarysettings;
 
-import classes.LibrarySettings;
+import librarysettings.LibrarySettings;
 
 public class MainLibrarySettings {
     public static void main(String[] args) {

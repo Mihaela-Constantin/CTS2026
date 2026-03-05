@@ -1,16 +1,16 @@
-package classes;
+package aplicatiemobila_eager;
 
-public class AplicatieMobila2 {
+public class AplicatieMobila {
     private String nume;
     private float dimensiune;
-    private static AplicatieMobila2 instanta = new AplicatieMobila2("Whatsapp",10);
+    private static AplicatieMobila instanta = new AplicatieMobila("Whatsapp",10);
 
-    private AplicatieMobila2(String nume, float dimensiune) {
+    private AplicatieMobila(String nume, float dimensiune) {
         this.nume = nume;
         this.dimensiune = dimensiune;
     }
 
-    public static AplicatieMobila2 getInstanta(){
+    public static AplicatieMobila getInstanta(){
         return instanta;
     }
 

@@ -1,4 +1,4 @@
-package classes;
+package aplicatiemobila_lazy;
 
 public class AplicatieMobila {
     private String nume;
