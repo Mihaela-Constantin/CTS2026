@@ -1,19 +1,20 @@
 package biblioteca;
 
-public class Biblioteca {
 
-    private static Biblioteca instance = null;
+public class BibliotecaLazySync {
+
+    private static BibliotecaLazySync instance = null;
 
     private String numeBiblioteca;
     private String adresa;
     private int nrTotalCarti;
 
-    private Biblioteca() {
+    private BibliotecaLazySync() {
     }
 
-    public static Biblioteca getInstance() {
+    public static synchronized BibliotecaLazySync getInstance() {
         if (instance == null)
-            instance = new Biblioteca();
+            instance = new BibliotecaLazySync();
         return instance;
     }
 

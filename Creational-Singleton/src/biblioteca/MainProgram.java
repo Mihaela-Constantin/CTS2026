@@ -26,4 +26,5 @@ public class MainProgram {
         System.out.println("bibliotecar1 dupa adaugare carti este " + bibliotecar1);
         System.out.println("bibliotecar2 dupa adaugare carti este " + bibliotecar2);
     }
+
 }

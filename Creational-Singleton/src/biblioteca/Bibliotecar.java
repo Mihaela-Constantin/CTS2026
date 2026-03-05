@@ -2,15 +2,15 @@ package biblioteca;
 
 public class Bibliotecar {
     private String numeBibliotecar;
-    private Biblioteca biblioteca;
+    private BibliotecaLazy biblioteca;
 
     public Bibliotecar() {
-        biblioteca = Biblioteca.getInstance();
+        biblioteca = BibliotecaLazy.getInstance();
     }
 
     public Bibliotecar(String numeBibliotecar) {
         this.numeBibliotecar = numeBibliotecar;
-        biblioteca = Biblioteca.getInstance();
+        biblioteca = BibliotecaLazy.getInstance();
     }
 
     public void adaugaCarti(int nrCarti) {
@@ -26,7 +26,7 @@ public class Bibliotecar {
         this.numeBibliotecar = numeBibliotecar;
     }
 
-    public Biblioteca getBiblioteca() {
+    public BibliotecaLazy getBiblioteca() {
         return biblioteca;
     }
 
